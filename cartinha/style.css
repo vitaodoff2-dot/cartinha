@@ -1,0 +1,32 @@
+ body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f9f0f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.carta-container {
+  text-align: center;
+  perspective: 1000px; /* para o efeito 3D da carta */
+}
+
+#carta {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 1s;
+}
+
+#conteudo {
+  display: none;
+  margin-top: 20px;
+  background: #fff0f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  max-width: 300px;
+  text-align: center;
+  font-size: 16px;
+}
